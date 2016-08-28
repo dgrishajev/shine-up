@@ -1,23 +1,77 @@
-.top-block {
+.divider {
   display: inline-block;
-  width: 100%;
-  height: calc(100vh - 32px);
-  position: relative;
-  background: url(assets/build/img/top-block-img.png) center center no-repeat;
-  text-align: center;
-  color: #fff;
-  h1 {
-    margin: 0;
-    font-size: 80px;
-  }
-  h3 {
-    margin: 10px auto 40px;
-    font-size: 40px;
-  }
+  width: 50px;
+  height: 5px;
+  margin: 10px 0 40px;
+  background: $dark-blue;
 }
 
-.top-block-inner-wrap {
+.top-block-1 {
+  display: inline-block;
+  width: 100%;
+  background: url(assets/build/img/top-block-1-img.png) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  @extend .site-block;
+}
+
+.logged-in .top-block-1 {
+  height: calc(100vh - 32px);
+}
+
+.top-block-1-inner-wrap {
   position: relative;
   top: 60%;
   transform: translateY(-50%);
+}
+
+.top-block-3-inner-wrap {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.top-block-2 {
+  padding: 50px 0;
+  background-color: #f6f7f8;
+  color: $dark-blue;
+  text-align: center;
+}
+
+.top-block-2-inner-wrap {
+  width: 70%;
+  margin: auto;
+}
+
+.top-block-2-sub-block {
+  display: inline-block;
+  &:nth-child(1) {
+    float: left;
+  }
+  &:nth-child(3) {
+    float: right;
+  }
+}
+
+.top-block-2-sub-block-icon {
+  min-height: 130px;
+}
+
+.top-block-3 {
+  display: inline-block;
+  width: 100%;
+  background: url(assets/build/img/top-block-3-img.png) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  @extend .site-block;
+  h4 {
+    max-width: 900px;
+    font-weight: 100;
+    b {
+      text-align: right;
+      display: block;
+      font-weight: 500;
+      margin-top: 30px;
+    }
+  }
 }

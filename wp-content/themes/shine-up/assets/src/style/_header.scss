@@ -2,7 +2,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 24px 50px;
-  position: fixed;
+  position: absolute;
   top: 0;
   color: #fff;
   background-color: rgb(35, 51, 74); // for browsers that don't support rgba
@@ -22,6 +22,10 @@
   }
 }
 
+.header-logo-link {
+  display: inline-block;
+}
+
 .header-menu-wrap {
   float: right;
 }
@@ -35,11 +39,11 @@
 .menu-item {
   display: inline-block;
   margin: 0 10px;
-  padding: 18px 0;
+  padding: 14px 0;
   font-size: 25px;
   text-transform: uppercase;
   a {
-    padding: 4px 0;
+    padding: 0 0 4px;
     &:hover {
       border-bottom: 2px solid #fff;
     }
