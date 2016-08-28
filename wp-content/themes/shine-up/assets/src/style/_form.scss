@@ -1,0 +1,51 @@
+.wpcf7 {
+  p {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+input.wpcf7-form-control {
+  box-sizing: border-box;
+  width: 200px;
+  height: 35px;
+  padding: 0 10px;
+  border: solid 1px #23334a;
+  border-radius: 5px;
+  outline: none;
+}
+
+input.wpcf7-form-control[type='submit'] {
+  margin: 50px auto 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #50b8e0;
+  color: #fff;
+  font: 18px Lato;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    background-color: darken(#50b8e0, 10%);
+  }
+}
+
+::-webkit-input-placeholder {
+  font-family: Lato;
+  color: #23334a;
+  opacity: 0.7;
+}
+::-moz-placeholder {
+  font-family: Lato;
+  color: #23334a;
+  opacity: 0.7;
+}
+:-ms-input-placeholder {
+  font-family: Lato;
+  color: #23334a;
+  opacity: 0.7;
+}
+:-moz-placeholder {
+  font-family: Lato;
+  color: #23334a;
+  opacity: 0.7;
+}

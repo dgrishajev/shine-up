@@ -1,0 +1,18 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}

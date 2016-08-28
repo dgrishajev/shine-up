@@ -17,6 +17,9 @@ module.exports = function () {
   watch([path.watch.font], function(event, cb) {
     gulp.start('font');
   });
+  watch([path.watch.img], function(event, cb) {
+    gulp.start('img');
+  });
   watch([path.watch.js], function(event, cb) {
     gulp.start('js');
   });

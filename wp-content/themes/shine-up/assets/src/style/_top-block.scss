@@ -1,0 +1,23 @@
+.top-block {
+  display: inline-block;
+  width: 100%;
+  height: calc(100vh - 32px);
+  position: relative;
+  background: url(assets/build/img/top-block-img.png) center center no-repeat;
+  text-align: center;
+  color: #fff;
+  h1 {
+    margin: 0;
+    font-size: 80px;
+  }
+  h3 {
+    margin: 10px auto 40px;
+    font-size: 40px;
+  }
+}
+
+.top-block-inner-wrap {
+  position: relative;
+  top: 60%;
+  transform: translateY(-50%);
+}
