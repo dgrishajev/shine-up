@@ -10,4 +10,6 @@
 
   <?php include_once('_services-block.php') ?>
 
+  <?php include_once('_pricing-block.php') ?>
+
 <?php get_footer(); ?>
