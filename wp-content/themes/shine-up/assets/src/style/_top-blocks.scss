@@ -25,17 +25,16 @@
   transform: translateY(-50%);
 }
 
-.top-block-3-inner-wrap {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .top-block-2 {
   padding: 50px 0;
-  background-color: #f6f7f8;
+  background-color: $light-grey;
   color: $dark-blue;
   text-align: center;
+  h4 {
+    font-size: 34px;
+    margin: 0 auto;
+    max-width: 700px;
+  }
 }
 
 .top-block-2-inner-wrap {
@@ -74,4 +73,10 @@
       margin-top: 30px;
     }
   }
+}
+
+.top-block-3-inner-wrap {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }

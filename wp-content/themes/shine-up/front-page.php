@@ -12,4 +12,6 @@
 
   <?php include_once('_pricing-block.php') ?>
 
+  <?php include_once('_about-block.php') ?>
+
 <?php get_footer(); ?>

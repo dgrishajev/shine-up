@@ -1,0 +1,91 @@
+.about-block {
+  box-sizing: border-box;
+  padding: 30px 0;
+  background-color: $light-grey;
+  color: $dark-blue;
+  @extend .site-block;
+  text-shadow: none;
+  .inner-block {
+    height: auto;
+    border: none;
+    margin: 0 4.2%;
+  }
+}
+
+.about-num {
+  display: block;
+  color: $light-blue;
+  font-size: 80px;
+}
+
+.about-num-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.reviews-slider {
+  overflow: hidden;
+}
+
+.review-slide {
+  display: inline-block;
+  outline: none;
+}
+
+.review-slide-inner-wrap {
+  display: table;
+  width: 60%;
+  margin: auto;
+  @extend .clearfix;
+}
+
+.review-avatar {
+  margin-right: 20px;
+  float: left;
+}
+
+.review-block {
+  display: table-cell;
+  width: calc(100% - 230px);
+  margin-left: 40px;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 20px;
+}
+
+.review-content {
+  color: #0f0f0f;
+  font-style: italic;
+}
+
+.review-author {
+  color: #0f0f0f;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.slick-dots {
+  padding: 0;
+  margin: 20px 0 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin: 0 8px;
+    &.slick-active {
+      svg path {
+        fill: $dark-blue;
+      }
+    }
+  }
+  svg {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    path {
+      fill: #d8d8d8;
+    }
+    &:hover path {
+      fill: #929292;
+    }
+  }
+}

@@ -6,9 +6,9 @@
 
   <p>WASH AND POLISH PACKAGES</p>
 
-  <div class="pricing-block-inner-wrap">
+  <div class="block-inner-wrap">
 
-    <div class="prices-block">
+    <div class="inner-block">
       <p>BASIS</p>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/lifebuoy.svg">
       <p class="price">65kr/foot</p>
@@ -16,7 +16,7 @@
       <p class="pricing-description">Vask af fribord og overbygning.Vask og aftørring af vinduer, alt metal og lakerede træoverflader.</p>
     </div>
 
-    <div class="prices-block basis-plus plus">
+    <div class="inner-block basis-plus plus">
       <p>BASIS PLUS</p>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/lifebuoy-plus.svg">
       <p class="price">125kr/foot</p>
@@ -24,7 +24,7 @@
       <p class="pricing-description">Som ”Basis Vask” polering af blanke overflader. Rens af sæder og hynder, og rengøring af opbevaringsrum og luger/vinduer.</p>
     </div>
 
-    <div class="prices-block">
+    <div class="inner-block">
       <p>PREMIUM</p>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/helm.svg">
       <p class="price">320kr/foot</p>
@@ -32,7 +32,7 @@
       <p class="pricing-description">Som ”Basis Plus” endvidere voks af fribord og overbygning (over vandlinje hvis båden ligger i vandet).</p>
     </div>
 
-    <div class="prices-block plus">
+    <div class="inner-block plus">
       <p>PREMIUM PLUS</p>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/helm-plus.svg">
       <p class="price">439kr/foot</p>
