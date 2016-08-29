@@ -1,0 +1,46 @@
+.contact-block {
+  box-sizing: border-box;
+  padding: 30px 0;
+  position: relative;
+  background-color: $dark-blue;
+  color: #fff;
+  @extend .site-block;
+  text-shadow: none;
+  .divider {
+    background-color: #fff;
+  }
+}
+
+.google-map {
+  height: 360px;
+}
+
+.contact-inner-block {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+  @extend .clearfix;
+  &:nth-child(1) {
+    float: left;
+  }
+  &:nth-child(3) {
+    float: right;
+  }
+}
+
+.contact-icon {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  margin-top: 20px;
+  background-size: cover;
+  &.contact-icon-phone {
+    background: url(assets/build/img/phone.svg) center center no-repeat;
+  }
+  &.contact-icon-marker {
+    background: url(assets/build/img/marker.svg) center center no-repeat;
+  }
+  &.contact-icon-mail {
+    background: url(assets/build/img/mail.svg) center center no-repeat;
+  }
+}

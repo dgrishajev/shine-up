@@ -1,0 +1,40 @@
+.main-footer {
+  padding-bottom: 10px;
+  border-top: 2px solid #fff;
+  background-color: $dark-blue;
+  text-align: center;
+  color: #fff;
+  p {
+    margin: 10px 0 0;
+  }
+}
+
+.social-wrap {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-wrap-inner {
+  display: inline-block;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background-size: cover;
+  a {
+    display: block;
+    height: 30px;
+  }
+  &.social-icon-fb {
+    background: url(assets/build/img/facebook.svg) center center no-repeat;
+  }
+  &.social-icon-inst {
+    background: url(assets/build/img/instagram.svg) center center no-repeat;
+  }
+  &.social-icon-ggl {
+    background: url(assets/build/img/google-plus.svg) center center no-repeat;
+  }
+}

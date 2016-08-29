@@ -16,4 +16,8 @@
 
   <?php include_once('_photos-block.php') ?>
 
+  <?php include_once('_contact-form-block.php') ?>
+
+  <?php include_once('_contact-block.php') ?>
+
 <?php get_footer(); ?>

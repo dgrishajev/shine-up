@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="84px" viewBox="0 0 120 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>56C1A598-57BE-4AE0-92C4-3AE8433E1924</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-663.000000, -5154.000000)">
+            <g id="MESSAGE" transform="translate(0.000000, 5038.000000)">
+                <g id="plane" transform="translate(721.496195, 153.587156) rotate(5.000000) translate(-721.496195, -153.587156) translate(662.996195, 111.087156)">
+                    <g id="Paper_Plane" transform="translate(0.000000, 0.000000)">
+                        <g id="Paper_Plane_1_">
+                            <polygon id="Bttom_Fold" fill="#17649A" points="48.515625 62.9158879 48.515625 84.364486 79.0625 62.9158879"></polygon>
+                            <polygon id="Fold" fill="#17649A" points="48.515625 84.364486 35.9375 59.3411215 115 1.84741111e-12 48.515625 62.9158879"></polygon>
+                            <polygon id="Right_Wing" fill="#40B3DF" points="86.25 84.364486 48.515625 62.9158879 115 -4.61852778e-13"></polygon>
+                            <polygon id="Left_Wing" fill="#40B3DF" points="35.9375 59.3411215 0 52.1915888 115 0"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
