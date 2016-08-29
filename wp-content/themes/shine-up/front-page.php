@@ -14,4 +14,6 @@
 
   <?php include_once('_about-block.php') ?>
 
+  <?php include_once('_photos-block.php') ?>
+
 <?php get_footer(); ?>

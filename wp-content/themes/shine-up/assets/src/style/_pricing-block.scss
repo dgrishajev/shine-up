@@ -1,6 +1,6 @@
 .pricing-block {
   box-sizing: border-box;
-  height: auto;
+  height: auto !important;
   padding: 30px 0;
   color: $dark-blue;
   @extend .site-block;
