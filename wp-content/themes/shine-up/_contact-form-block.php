@@ -1,6 +1,6 @@
 <div class="contact-form-block">
   
-  <h4>IF YOU HAVE SOME QUESTIONS JUST LEAVE US A MEESSAGE</h4>
+  <h4 class="site-title">IF YOU HAVE SOME QUESTIONS JUST LEAVE US A MEESSAGE</h4>
 
   <div class="plane"></div>
 

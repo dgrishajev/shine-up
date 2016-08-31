@@ -1,6 +1,6 @@
 <div id="pricing-block" class="pricing-block">
   
-  <h4>OUR PRICES</h4>
+  <h4 class="site-title">OUR PRICES</h4>
 
   <div class="divider"></div>
 

@@ -26,15 +26,10 @@
 }
 
 .top-block-2 {
-  padding: 50px 0;
+  padding: 34px 0;
   background-color: $light-grey;
   color: $dark-blue;
   text-align: center;
-  h4 {
-    font-size: 34px;
-    margin: 0 auto;
-    max-width: 700px;
-  }
 }
 
 .top-block-2-inner-wrap {
@@ -56,6 +51,10 @@
   min-height: 130px;
 }
 
+.top-block-2-sub-block-wrap {
+  font-size: 20px;
+}
+
 .top-block-3 {
   display: inline-block;
   width: 100%;
@@ -63,14 +62,17 @@
   background-size: cover;
   color: #fff;
   @extend .site-block;
-  h4 {
-    max-width: 900px;
+  .quote {
+    max-width: 1190px;
+    margin: auto;
+    font-size: 45px;
     font-weight: 100;
     b {
+      margin-top: 30px;
       text-align: right;
       display: block;
+      font-size: 40px;
       font-weight: 500;
-      margin-top: 30px;
     }
   }
 }

@@ -1,6 +1,6 @@
 <div id="about-block" class="about-block">
   
-  <h4>ABOUT</h4>
+  <h4 class="site-title">ABOUT</h4>
 
   <div class="divider"></div>
 

@@ -1,6 +1,6 @@
 <div id="services-block" class="services-block">
   
-  <h4>OUR SERVICES</h4>
+  <h4 class="site-title">OUR SERVICES</h4>
 
   <div class="divider"></div>
 

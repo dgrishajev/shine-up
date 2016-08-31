@@ -1,6 +1,6 @@
 <div id="contact-block" class="contact-block">
   
-  <h4>CONTACT</h4>
+  <h4 class="site-title">CONTACT</h4>
 
   <div class="divider"></div>
 
